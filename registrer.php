@@ -73,7 +73,7 @@
     ?>
     
     <!-- Returnerer bruker tilbake til hovedskjerm -->
-    <form method="POST" action="index.html">
+    <form method="POST" action="index.php">
         <input type="submit" value="Gå tilbake til hovedside">
     </form>
 
