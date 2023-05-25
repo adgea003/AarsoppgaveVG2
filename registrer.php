@@ -57,11 +57,12 @@
                     if(mysqli_query($db, $update)){
                         echo "Successfull update";
                     }   */
+                    
                     //Den sletter data dersom den oppfyller kravene
-                    /*$delete = "DELETE FROM `bruker` WHERE id=30";
+                    $delete = "DELETE FROM `bruker` WHERE id=30";
                     if(mysqli_query($db, $delete)){
                         echo "Successfull deletion";
-                    }*/
+                    }
                 }
                 //avslutter koblingen til databasen 
                 mysqli_close($dbconnect);

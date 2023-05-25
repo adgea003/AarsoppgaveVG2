@@ -32,6 +32,7 @@
                     echo 'Saldo: ' . $row["saldo"];
                     echo "<br>";
                     echo "<br>";
+                    
             }
             //avslutter koblingen til databasen
             mysqli_close($dbconnect);
@@ -41,6 +42,6 @@
     <form method="POST" action="index.html">
         <input type="submit" value="Gå tilbake til hovedside">
     </form>
-
+    
 </body>
 </html>

@@ -1,3 +1,6 @@
+<?php
+session_start()
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +29,7 @@
 
         </div>
         <div>
-            <h4>Sette inn</h4>
+            <h4>Registrer deg</h4>
             <!--Formen som må utfylles for å lage en bank konto. Formen bruker metoden "POST" som da gjør at alle utfylte felter skal ikke vises i søkefeltet. Action funksjonen er for hva den skal gjøre. Text er for text/string. Number er integer/INT og submit funksjonen utfører formen-->
         <form method="POST" name="saveInput" action="registrer.php">
             <label for="navn">Navn:</label>

@@ -20,7 +20,7 @@
             // $db = mysqli_connect('localhost', 'root', '', 'bankbrukertest')
             //     or die('Error connecting to MySQL server.'); 
     
-            $query = "SELECT username, password from users where username='$navn' and password='$epost'";
+            $query = "SELECT navn, password from bruker where navn='$navn' and password='$epost'";
     
             $result = mysqli_query($dbconnect, $query)
                 or die('Error querying database.');
